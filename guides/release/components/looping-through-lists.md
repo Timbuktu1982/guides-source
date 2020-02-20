@@ -206,7 +206,7 @@ add an action for creating the new message. We'll add this to the
 <form>
 <form {{on "submit" this.createMessage}}>
   <input>
-  <Input @value={{this.message}}>
+  <Input @value={{this.message}} />
   <button>
     Send
   </button>
